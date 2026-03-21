@@ -5,20 +5,20 @@
 
 /* --- CSS Custom Properties --- */
 :root {
-  --color-primary: #1a472a;
-  --color-primary-light: #245a36;
-  --color-primary-dark: #0f2e1a;
-  --color-accent: #c5a55a;
-  --color-accent-light: #d4ba7a;
-  --color-accent-dark: #a88b3d;
-  --color-surface: #faf8f4;
-  --color-surface-alt: #f0ede6;
+  --color-primary: #6D2077;
+  --color-primary-light: #8A3D96;
+  --color-primary-dark: #4A1259;
+  --color-accent: #B7A57A;
+  --color-accent-light: #D4C9A8;
+  --color-accent-dark: #9A8B5E;
+  --color-surface: #FDFBF9;
+  --color-surface-alt: #F3EAF5;
   --color-text: #1a1a1a;
   --color-text-light: #4a4a4a;
   --color-text-muted: #6b6b6b;
   --color-white: #ffffff;
   --color-border: #e0ddd6;
-  --color-success: #2e7d32;
+  --color-success: #2e7d32;  /* Keeping green for success states — semantic, not brand */
   --color-error: #c62828;
 
   --font-heading: Georgia, 'Times New Roman', serif;
@@ -244,7 +244,7 @@ li {
   left: 0;
   right: 0;
   bottom: 0;
-  background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="50" cy="50" r="2" fill="rgba(197,165,90,0.08)"/></svg>') repeat;
+  background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="50" cy="50" r="2" fill="rgba(109,32,119,0.08)"/></svg>') repeat;
   background-size: 30px 30px;
 }
 
