@@ -26,17 +26,17 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   }
 
-  // --- Countdown Timer ---
+  // --- Countdown Timer (Partnership Tournament — July 11, 2026) ---
   var countdownEl = document.getElementById('countdown');
   if (countdownEl) {
-    var targetDate = new Date('2026-05-22T08:00:00-05:00').getTime();
+    var targetDate = new Date('2026-07-11T08:00:00-05:00').getTime();
 
     function updateCountdown() {
       var now = new Date().getTime();
       var diff = targetDate - now;
 
       if (diff <= 0) {
-        countdownEl.innerHTML = '<div class="countdown__unit"><span class="countdown__number">Tournament Day!</span></div>';
+        countdownEl.innerHTML = '<div class="countdown__unit"><span class="countdown__number">Event Day!</span></div>';
         return;
       }
 
