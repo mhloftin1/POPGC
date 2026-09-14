@@ -26,10 +26,10 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   }
 
-  // --- Countdown Timer (Partnership Tournament — July 11, 2026) ---
+  // --- Countdown Timer (Ryder Cup Matches — October 17, 2026) ---
   var countdownEl = document.getElementById('countdown');
   if (countdownEl) {
-    var targetDate = new Date('2026-07-11T08:00:00-05:00').getTime();
+    var targetDate = new Date('2026-10-17T08:00:00-05:00').getTime();
 
     function updateCountdown() {
       var now = new Date().getTime();
