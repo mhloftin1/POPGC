@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', function() {
   // --- Countdown Timer (Ryder Cup Matches — October 17, 2026) ---
   var countdownEl = document.getElementById('countdown');
   if (countdownEl) {
-    var targetDate = new Date('2026-10-17T08:00:00-05:00').getTime();
+    var targetDate = new Date('2026-10-17T11:30:00-05:00').getTime();
 
     function updateCountdown() {
       var now = new Date().getTime();
