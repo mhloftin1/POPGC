@@ -26,10 +26,10 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   }
 
-  // --- Countdown Timer (Ryder Cup Matches — October 17, 2026) ---
+  // --- Countdown Timer (38th Annual Cleve Austin — opens Friday, May 28, 2027, 11:00 AM) ---
   var countdownEl = document.getElementById('countdown');
   if (countdownEl) {
-    var targetDate = new Date('2026-10-17T11:30:00-05:00').getTime();
+    var targetDate = new Date('2027-05-28T11:00:00-05:00').getTime();
 
     function updateCountdown() {
       var now = new Date().getTime();
